@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmile version="1.0" xmlns="http://docs.oasis-open.org/xmile/ns/XMILE/v1.0" xmlns:isee="http://iseesystems.com/XMILE">
+	<header>
+		<smile version="1.0" namespace="std, isee"/>
+		<name/>
+		<uuid>c8bf1497-c6c8-4231-9a55-c9e300ccf0ee</uuid>
+		<vendor>isee systems, inc.</vendor>
+		<product version="3.4.1(Online)" isee:build_number="3048" isee:saved_by_v1="false" lang="en"/>
+	</header>
+	<sim_specs isee:sim_duration="1.2" isee:run_prefix="Run" isee:simulation_delay="0.06" isee:restore_on_start="false" method="Euler" time_units="years" isee:instantaneous_flows="true" isee:ignore_module_errors="false" isee:strict_units="false" isee:loop_scores="true" isee:loop_exhaustive_allowed="1000">
+		<start>0</start>
+		<stop>20</stop>
+		<dt reciprocal="true">4</dt>
+	</sim_specs>
+	<isee:prefs saved_runs="5" keep="false" show_module_prefix="true" live_update_on_drag="true" show_restore_buttons="false" layer="model" isee:design="" isee:design_custom="false" interface_scale_ui="true" interface_max_page_width="10000" interface_max_page_height="10000" interface_min_page_width="0" interface_min_page_height="0" rerun_on_structure_change="false" rifp="false"/>
+	<isee:multiplayer_settings include_chat="true" allow_observers="false" advance_time_increment="1" max_advance_time_in_ms="0" model_stops_when_players_drop="false" observer_start_page="home_page" enabled="false"/>
+	<isee:time_formats default_format="Builtin">
+		<isee:time_format name="Builtin" type="adaptive"/>
+	</isee:time_formats>
+	<default_format/>
+	<isee:sensi_specs_list active_index="0">
+		<isee:sensi_specs name="Sensitivity Analysis 2" method="multivariate" runs="0"/>
+	</isee:sensi_specs_list>
+	<isee:data_manager>102005;prey,0;prey_deaths,1;prey_births,2;predators,3;prey_birthrate,4;predator_mortality_rate,5;predator_deaths,6;predator_births,7;predator_birthrate,8;prey_mortality_rate,9;:5,Run 5,0,20,0.25,0.25,0,0,1,1,0,years,0,2024-Jan-25 11:57:36,0,0,3,-1,81,15,18.525,26.12025,42.3789628640625,77.739061884008,149.116163708106,237.089394558798,176.052267647787,129.398416721123,95.1078362900255,69.9042596731688,51.379630859779,37.7640286819376,27.7565610812241,20.4010723946997,14.9947882101043,11.0211693344267,8.1005594608036,5.95391120369064,4.37612473471262,3.21645168001378,2.36409198481013,1.73760760883544,1.27714159249405,0.938699070483127,0.689943816805098,0.507108705351747,0.372724898433534,0.273952800348648,0.201355308256256,0.147996151568348,0.108777171402736,0.0799512209810109,0.058764147421043,0.0431916483544666,0.031745861540533,0.0233332082322917,0.0171499080507344,0.0126051824172898,0.009264809076708,0.00680963467138038,0.00500508148346458,0.00367873489034647,0.00270387014440465,0.00198734455613742,0.001460698248761,0.00107361321283934,0.000789105711436913,0.000579992697906131,0.000426294632961006,0.00031332655522634,0.00023029501809136,0.000169266838297149,0.000124411126148405,0.0000914421777190775,0.000067210000623522,0.0000493993504582887,0.0000363085225868422,0.000026686764101329,0.0000196147716144768,0.0000144168571366405,0.0000105963899954307,0.00000778834664664159,0.00000572443478528157,0.00000420745956718195,0.00000309248278187873,0.00000227297484468087,0.00000167063651084044,0.00000122791783546772,9.02519609068777e-7,6.63351912665551e-7,4.8756365580918e-7,3.58359287019747e-7,2.63394075959514e-7,1.93594645830243e-7,1.42292064685228e-7,1.04584667543643e-7,7.68697306445775e-8,5.64992520237645e-8,4.15269502374669e-8,3.05223084245382e-8,;5,-1,81,1.06,;0,-1,81,100,135,177.49125,219.875716771875,236.632526799968,170.992883753233,1.51129716316805,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;7,-1,81,30,50.0175,92.72231645625,186.362096715688,367.911812893439,509.956056933364,7.16625058827886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;6,-1,81,15.9,19.6365,27.687465,44.9217006359063,82.4034055970485,158.063133530592,251.314758232326,186.615403706654,137.162321724391,100.814306467427,74.0985152535589,54.4624087113658,40.0298704028538,29.4219547460976,21.6251367383817,15.8944755027106,11.6824394944923,8.58659302845181,6.31114587591208,4.63869221879538,3.4094387808146,2.50593750389873,1.84186406536557,1.35377008804369,0.995021014712115,0.731340445813404,0.537535227672852,0.395088392339546,0.290389968369567,0.213436626751631,0.156875920662449,0.1153038016869,0.0847482942398716,0.0622899962663056,0.0457831472557346,0.033650613232965,0.0247332007262292,0.0181789025337785,0.0133614933623272,0.00982069762131048,0.00721821275166321,0.00530538637247246,0.00389945898376726,0.00286610235306893,0.00210658522950567,0.00154834014368666,0.0011380300056097,0.000836452054123128,0.000614792259780499,0.000451872310938667,0.00033212614853992,0.000244112719176841,0.000179422848594978,0.000131875793717309,0.0000969287083822222,0.0000712426006609333,0.000052363311485786,0.0000384870339420527,0.0000282879699474087,0.0000207916579113454,0.0000152818685648389,0.0000112321733951566,0.00000825564744544008,0.00000606790087239846,0.00000445990714121287,0.00000327803174879146,0.00000240935333536172,0.00000177087470149087,0.00000130159290559579,9.56670785612903e-7,7.03153027425484e-7,5.16817475157731e-7,3.79860844240932e-7,2.79197720517085e-7,2.05210324580057e-7,1.50829588566342e-7,1.10859747596262e-7,8.14819144832522e-8,5.98892071451904e-8,4.40185672517149e-8,3.23536469300105e-8,;4,-1,81,2,;2,-1,81,200,270,354.9825,439.75143354375,473.265053599937,341.985767506467,3.0225943263361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;1,-1,81,60,100.035,185.4446329125,372.724193431377,735.823625786877,1019.91211386673,9.06778297900831,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;8,-1,81,0.02,;9,-1,81,0.04,;:4,Run 4,0,20,0.25,0.25,0,0,1,1,0,years,0,2024-Jan-25 11:56:55,0,0,3,-1,81,15,18.525,26.12025,42.3789628640625,77.739061884008,149.116163708106,237.089394558798,176.052267647787,129.398416721123,95.1078362900255,69.9042596731688,51.379630859779,37.7640286819376,27.7565610812241,20.4010723946997,14.9947882101043,11.0211693344267,8.1005594608036,5.95391120369064,4.37612473471262,3.21645168001378,2.36409198481013,1.73760760883544,1.27714159249405,0.938699070483127,0.689943816805098,0.507108705351747,0.372724898433534,0.273952800348648,0.201355308256256,0.147996151568348,0.108777171402736,0.0799512209810109,0.058764147421043,0.0431916483544666,0.031745861540533,0.0233332082322917,0.0171499080507344,0.0126051824172898,0.009264809076708,0.00680963467138038,0.00500508148346458,0.00367873489034647,0.00270387014440465,0.00198734455613742,0.001460698248761,0.00107361321283934,0.000789105711436913,0.000579992697906131,0.000426294632961006,0.00031332655522634,0.00023029501809136,0.000169266838297149,0.000124411126148405,0.0000914421777190775,0.000067210000623522,0.0000493993504582887,0.0000363085225868422,0.000026686764101329,0.0000196147716144768,0.0000144168571366405,0.0000105963899954307,0.00000778834664664159,0.00000572443478528157,0.00000420745956718195,0.00000309248278187873,0.00000227297484468087,0.00000167063651084044,0.00000122791783546772,9.02519609068777e-7,6.63351912665551e-7,4.8756365580918e-7,3.58359287019747e-7,2.63394075959514e-7,1.93594645830243e-7,1.42292064685228e-7,1.04584667543643e-7,7.68697306445775e-8,5.64992520237645e-8,4.15269502374669e-8,3.05223084245382e-8,;5,-1,81,1.06,;0,-1,81,100,135,177.49125,219.875716771875,236.632526799968,170.992883753233,1.51129716316805,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;7,-1,81,30,50.0175,92.72231645625,186.362096715688,367.911812893439,509.956056933364,7.16625058827886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;6,-1,81,15.9,19.6365,27.687465,44.9217006359063,82.4034055970485,158.063133530592,251.314758232326,186.615403706654,137.162321724391,100.814306467427,74.0985152535589,54.4624087113658,40.0298704028538,29.4219547460976,21.6251367383817,15.8944755027106,11.6824394944923,8.58659302845181,6.31114587591208,4.63869221879538,3.4094387808146,2.50593750389873,1.84186406536557,1.35377008804369,0.995021014712115,0.731340445813404,0.537535227672852,0.395088392339546,0.290389968369567,0.213436626751631,0.156875920662449,0.1153038016869,0.0847482942398716,0.0622899962663056,0.0457831472557346,0.033650613232965,0.0247332007262292,0.0181789025337785,0.0133614933623272,0.00982069762131048,0.00721821275166321,0.00530538637247246,0.00389945898376726,0.00286610235306893,0.00210658522950567,0.00154834014368666,0.0011380300056097,0.000836452054123128,0.000614792259780499,0.000451872310938667,0.00033212614853992,0.000244112719176841,0.000179422848594978,0.000131875793717309,0.0000969287083822222,0.0000712426006609333,0.000052363311485786,0.0000384870339420527,0.0000282879699474087,0.0000207916579113454,0.0000152818685648389,0.0000112321733951566,0.00000825564744544008,0.00000606790087239846,0.00000445990714121287,0.00000327803174879146,0.00000240935333536172,0.00000177087470149087,0.00000130159290559579,9.56670785612903e-7,7.03153027425484e-7,5.16817475157731e-7,3.79860844240932e-7,2.79197720517085e-7,2.05210324580057e-7,1.50829588566342e-7,1.10859747596262e-7,8.14819144832522e-8,5.98892071451904e-8,4.40185672517149e-8,3.23536469300105e-8,;4,-1,81,2,;2,-1,81,200,270,354.9825,439.75143354375,473.265053599937,341.985767506467,3.0225943263361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;1,-1,81,60,100.035,185.4446329125,372.724193431377,735.823625786877,1019.91211386673,9.06778297900831,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;8,-1,81,0.02,;9,-1,81,0.04,;:3,Run 3,0,20,0.25,0.25,0,0,1,1,0,years,0,2024-Jan-25 11:56:12,0,0,3,-1,81,15,18.525,26.12025,42.3789628640625,77.739061884008,149.116163708106,237.089394558798,176.052267647787,129.398416721123,95.1078362900255,69.9042596731688,51.379630859779,37.7640286819376,27.7565610812241,20.4010723946997,14.9947882101043,11.0211693344267,8.1005594608036,5.95391120369064,4.37612473471262,3.21645168001378,2.36409198481013,1.73760760883544,1.27714159249405,0.938699070483127,0.689943816805098,0.507108705351747,0.372724898433534,0.273952800348648,0.201355308256256,0.147996151568348,0.108777171402736,0.0799512209810109,0.058764147421043,0.0431916483544666,0.031745861540533,0.0233332082322917,0.0171499080507344,0.0126051824172898,0.009264809076708,0.00680963467138038,0.00500508148346458,0.00367873489034647,0.00270387014440465,0.00198734455613742,0.001460698248761,0.00107361321283934,0.000789105711436913,0.000579992697906131,0.000426294632961006,0.00031332655522634,0.00023029501809136,0.000169266838297149,0.000124411126148405,0.0000914421777190775,0.000067210000623522,0.0000493993504582887,0.0000363085225868422,0.000026686764101329,0.0000196147716144768,0.0000144168571366405,0.0000105963899954307,0.00000778834664664159,0.00000572443478528157,0.00000420745956718195,0.00000309248278187873,0.00000227297484468087,0.00000167063651084044,0.00000122791783546772,9.02519609068777e-7,6.63351912665551e-7,4.8756365580918e-7,3.58359287019747e-7,2.63394075959514e-7,1.93594645830243e-7,1.42292064685228e-7,1.04584667543643e-7,7.68697306445775e-8,5.64992520237645e-8,4.15269502374669e-8,3.05223084245382e-8,;5,-1,81,1.06,;0,-1,81,100,135,177.49125,219.875716771875,236.632526799968,170.992883753233,1.51129716316805,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;7,-1,81,30,50.0175,92.72231645625,186.362096715688,367.911812893439,509.956056933364,7.16625058827886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;6,-1,81,15.9,19.6365,27.687465,44.9217006359063,82.4034055970485,158.063133530592,251.314758232326,186.615403706654,137.162321724391,100.814306467427,74.0985152535589,54.4624087113658,40.0298704028538,29.4219547460976,21.6251367383817,15.8944755027106,11.6824394944923,8.58659302845181,6.31114587591208,4.63869221879538,3.4094387808146,2.50593750389873,1.84186406536557,1.35377008804369,0.995021014712115,0.731340445813404,0.537535227672852,0.395088392339546,0.290389968369567,0.213436626751631,0.156875920662449,0.1153038016869,0.0847482942398716,0.0622899962663056,0.0457831472557346,0.033650613232965,0.0247332007262292,0.0181789025337785,0.0133614933623272,0.00982069762131048,0.00721821275166321,0.00530538637247246,0.00389945898376726,0.00286610235306893,0.00210658522950567,0.00154834014368666,0.0011380300056097,0.000836452054123128,0.000614792259780499,0.000451872310938667,0.00033212614853992,0.000244112719176841,0.000179422848594978,0.000131875793717309,0.0000969287083822222,0.0000712426006609333,0.000052363311485786,0.0000384870339420527,0.0000282879699474087,0.0000207916579113454,0.0000152818685648389,0.0000112321733951566,0.00000825564744544008,0.00000606790087239846,0.00000445990714121287,0.00000327803174879146,0.00000240935333536172,0.00000177087470149087,0.00000130159290559579,9.56670785612903e-7,7.03153027425484e-7,5.16817475157731e-7,3.79860844240932e-7,2.79197720517085e-7,2.05210324580057e-7,1.50829588566342e-7,1.10859747596262e-7,8.14819144832522e-8,5.98892071451904e-8,4.40185672517149e-8,3.23536469300105e-8,;4,-1,81,2,;2,-1,81,200,270,354.9825,439.75143354375,473.265053599937,341.985767506467,3.0225943263361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;1,-1,81,60,100.035,185.4446329125,372.724193431377,735.823625786877,1019.91211386673,9.06778297900831,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;8,-1,81,0.02,;9,-1,81,0.04,;:2,Run 2,0,20,0.25,0.25,0,0,1,1,0,years,0,2024-Jan-25 11:22:56,0,0,3,-1,81,1000,5735,4215.225,3098.190375,2277.169925625,1673.71989533438,1230.18412307077,904.185330457013,664.576217885904,488.46352014614,359.020687307413,263.880205170948,193.951950800647,142.554683838476,104.77769262128,77.0116040766405,56.6035289963307,41.6035938123031,30.5786414520428,22.4753014672514,16.5193465784298,12.1417197351459,8.92416400533224,6.5592605439192,4.82105649978061,3.54347652733875,2.60445524759398,1.91427460698158,1.40699183613146,1.03413899955662,0.760092164674117,0.558667741035476,0.410620789661075,0.30180628040089,0.221827616094654,0.163043297829571,0.119836823904734,0.0880800655699798,0.0647388481939352,0.0475830534225424,0.0349735442655686,0.0257055550351929,0.0188935829508668,0.0138867834688871,0.010206785849632,0.00750198759947954,0.00551396088561746,0.00405276125092883,0.00297877951943269,0.00218940294678303,0.00160921116588553,0.00118277020692586,0.000869336102090509,0.000638962035036524,0.000469637095751845,0.000345183265377606,0.000253709700052541,0.000186476629538617,0.000137060322710884,0.0001007393371925,0.0000740434128364871,0.000054421908434818,0.0000400001026995913,0.0000294000754841996,0.0000216090554808867,0.0000158826557784517,0.000011673751997162,0.00000858020771791408,0.00000630645267266685,0.00000463524271441013,0.00000340690339509145,0.00000250407399539221,0.00000184049438661328,0.00000135276337416076,9.94281080008157e-7,7.30796593805996e-7,5.37135496447407e-7,3.94794589888844e-7,2.901740235683e-7,2.13277907322701e-7,1.56759261882185e-7,;5,-1,81,1.06,;0,-1,81,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;7,-1,81,20000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;6,-1,81,1060,6079.1,4468.1385,3284.0817975,2413.8001211625,1774.14308905444,1303.99517045501,958.436450284434,704.450790959059,517.771331354908,380.561928545858,279.713017481205,205.589067848686,151.107964868784,111.064354178556,81.6323003212389,59.9997407361106,44.0998094410413,32.4133599391653,23.8238195552865,17.5105073731356,12.8702229192547,9.45961384565218,6.95281617655435,5.11031988976745,3.75608511897907,2.76072256244962,2.02913108340047,1.49141134629935,1.09618733953002,0.805697694554564,0.592187805497604,0.435258037040739,0.319914657224943,0.235137273060333,0.172825895699345,0.127027033339019,0.0933648695041786,0.0686231790855713,0.0504380366278949,0.0370719569215028,0.0272478883373045,0.0200271979279188,0.0147199904770203,0.0108191930006099,0.00795210685544831,0.00584479853875451,0.00429592692598456,0.00315750629059865,0.00232076712359001,0.00170576383583866,0.00125373641934141,0.000921496268215939,0.000677299757138715,0.000497815321496956,0.000365894261300263,0.000268932282055693,0.000197665227310934,0.000145283942073537,0.000106783697424049,0.0000784860176066764,0.0000576872229409071,0.0000424001088615667,0.0000311640800132515,0.0000229055988097399,0.0000168356151251588,0.0000123741771169917,0.00000909502018098892,0.00000668483983302686,0.00000491335727727474,0.00000361131759879693,0.00000265431843511575,0.00000195092404981007,0.0000014339291766104,0.00000105393794480865,7.74644389434355e-7,5.69363626234251e-7,4.18482265282175e-7,3.07584464982398e-7,2.26074581762063e-7,1.66164817595116e-7,;4,-1,81,2,;2,-1,81,2000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;1,-1,81,6000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;8,-1,81,0.02,;9,-1,81,0.04,;:1,Run 1,0,20,0.25,0.25,0,0,1,1,0,years,0,2024-Jan-25 11:21:45,0,0,3,-1,81,1000,5735,4215.225,3098.190375,2277.169925625,1673.71989533438,1230.18412307077,904.185330457013,664.576217885904,488.46352014614,359.020687307413,263.880205170948,193.951950800647,142.554683838476,104.77769262128,77.0116040766405,56.6035289963307,41.6035938123031,30.5786414520428,22.4753014672514,16.5193465784298,12.1417197351459,8.92416400533224,6.5592605439192,4.82105649978061,3.54347652733875,2.60445524759398,1.91427460698158,1.40699183613146,1.03413899955662,0.760092164674117,0.558667741035476,0.410620789661075,0.30180628040089,0.221827616094654,0.163043297829571,0.119836823904734,0.0880800655699798,0.0647388481939352,0.0475830534225424,0.0349735442655686,0.0257055550351929,0.0188935829508668,0.0138867834688871,0.010206785849632,0.00750198759947954,0.00551396088561746,0.00405276125092883,0.00297877951943269,0.00218940294678303,0.00160921116588553,0.00118277020692586,0.000869336102090509,0.000638962035036524,0.000469637095751845,0.000345183265377606,0.000253709700052541,0.000186476629538617,0.000137060322710884,0.0001007393371925,0.0000740434128364871,0.000054421908434818,0.0000400001026995913,0.0000294000754841996,0.0000216090554808867,0.0000158826557784517,0.000011673751997162,0.00000858020771791408,0.00000630645267266685,0.00000463524271441013,0.00000340690339509145,0.00000250407399539221,0.00000184049438661328,0.00000135276337416076,9.94281080008157e-7,7.30796593805996e-7,5.37135496447407e-7,3.94794589888844e-7,2.901740235683e-7,2.13277907322701e-7,1.56759261882185e-7,;5,-1,81,1.06,;0,-1,81,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;7,-1,81,20000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;6,-1,81,1060,6079.1,4468.1385,3284.0817975,2413.8001211625,1774.14308905444,1303.99517045501,958.436450284434,704.450790959059,517.771331354908,380.561928545858,279.713017481205,205.589067848686,151.107964868784,111.064354178556,81.6323003212389,59.9997407361106,44.0998094410413,32.4133599391653,23.8238195552865,17.5105073731356,12.8702229192547,9.45961384565218,6.95281617655435,5.11031988976745,3.75608511897907,2.76072256244962,2.02913108340047,1.49141134629935,1.09618733953002,0.805697694554564,0.592187805497604,0.435258037040739,0.319914657224943,0.235137273060333,0.172825895699345,0.127027033339019,0.0933648695041786,0.0686231790855713,0.0504380366278949,0.0370719569215028,0.0272478883373045,0.0200271979279188,0.0147199904770203,0.0108191930006099,0.00795210685544831,0.00584479853875451,0.00429592692598456,0.00315750629059865,0.00232076712359001,0.00170576383583866,0.00125373641934141,0.000921496268215939,0.000677299757138715,0.000497815321496956,0.000365894261300263,0.000268932282055693,0.000197665227310934,0.000145283942073537,0.000106783697424049,0.0000784860176066764,0.0000576872229409071,0.0000424001088615667,0.0000311640800132515,0.0000229055988097399,0.0000168356151251588,0.0000123741771169917,0.00000909502018098892,0.00000668483983302686,0.00000491335727727474,0.00000361131759879693,0.00000265431843511575,0.00000195092404981007,0.0000014339291766104,0.00000105393794480865,7.74644389434355e-7,5.69363626234251e-7,4.18482265282175e-7,3.07584464982398e-7,2.26074581762063e-7,1.66164817595116e-7,;4,-1,81,2,;2,-1,81,2000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;1,-1,81,6000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,;8,-1,81,0.02,;9,-1,81,0.04,;:</isee:data_manager>
+	<model_units/>
+	<model>
+		<variables>
+			<stock name="prey">
+				<eqn>100</eqn>
+				<inflow>prey_births</inflow>
+				<outflow>prey_deaths</outflow>
+				<non_negative/>
+			</stock>
+			<flow name="prey deaths">
+				<eqn>prey_mortality_rate*prey*predators</eqn>
+				<non_negative/>
+			</flow>
+			<flow name="prey births">
+				<eqn>prey_birthrate*prey</eqn>
+				<non_negative/>
+			</flow>
+			<aux name="prey\nbirthrate">
+				<eqn>2</eqn>
+			</aux>
+			<stock name="predators">
+				<eqn>15</eqn>
+				<inflow>predator_births</inflow>
+				<outflow>predator_deaths</outflow>
+				<non_negative/>
+			</stock>
+			<flow name="predator\ndeaths">
+				<eqn>predator_mortality_rate*predators</eqn>
+				<non_negative/>
+			</flow>
+			<aux name="predator mortality\nrate">
+				<eqn>1.06</eqn>
+			</aux>
+			<flow name="predator\nbirths">
+				<eqn>predator_birthrate*predators*prey</eqn>
+				<non_negative/>
+			</flow>
+			<aux name="predator\nbirthrate">
+				<eqn>0.02</eqn>
+			</aux>
+			<aux name="prey mortality\nrate">
+				<eqn>0.04</eqn>
+			</aux>
+		</variables>
+		<views>
+			<style color="#000000" background="#FFFFFF" font_style="normal" font_weight="normal" text_decoration="none" text_align="center" vertical_text_align="center" font_color="#000000" font_family="Arial" font_size="10pt" padding="2" border_color="#000000" border_width="thin" border_style="none">
+				<text_box color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt"/>
+				<isee:loop_indicator color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt"/>
+				<numeric_display color="#0000FF" background="#FFFFFF" font_size="9pt" border_width="thin" border_style="solid" isee:transparent="false" isee:show_divider="true" isee:show_bounding_box="true" label_side="left"/>
+				<graph color="#000000" background="#FFFFFF" font_size="12pt" axis_color="#666666" grid_color="#C8C8C8" isee:graph_area_color="#FFFFFF" legend_position="bottom" isee:transparent="false" isee:hide_border="false" axis_title_font_style="normal" axis_title_font_weight="normal" axis_title_text_decoration="none" axis_title_text_align="center" axis_title_vertical_text_align="center" axis_title_font_color="#000000" axis_title_font_family="Arial" axis_title_font_size="12pt" axis_title_text_padding="2" axis_title_text_border_color="#000000" axis_title_text_border_width="thin" axis_title_text_border_style="none" axis_label_font_style="normal" axis_label_font_weight="normal" axis_label_text_decoration="none" axis_label_text_align="center" axis_label_vertical_text_align="center" axis_label_font_color="#000000" axis_label_font_family="Arial" axis_label_font_size="9pt" axis_label_text_padding="2" axis_label_text_border_color="#000000" axis_label_text_border_width="thin" axis_label_text_border_style="none">
+					<isee:series_styles>
+						<isee:series_style color="#0000FF" thickness="1"/>
+						<isee:series_style color="#FF0000" thickness="1" pen_style="dot_dashed"/>
+						<isee:series_style color="#FF00FF" thickness="1" pen_style="dotted"/>
+						<isee:series_style color="#008F44" thickness="1" pen_style="dashed"/>
+						<isee:series_style color="#FF7F00" thickness="1"/>
+						<isee:series_style color="#7F00FF" thickness="1" pen_style="dot_dashed"/>
+						<isee:series_style color="#0CA0FF" thickness="1" pen_style="dotted"/>
+						<isee:series_style color="#00FF00" thickness="1" pen_style="dashed"/>
+						<isee:series_style color="#FF007F" thickness="1"/>
+						<isee:series_style color="#00FFFF" thickness="1" pen_style="dot_dashed"/>
+						<isee:series_style color="#F586FF" thickness="1" pen_style="dotted"/>
+						<isee:series_style color="#000000" thickness="1" pen_style="dashed"/>
+						<isee:series_style color="#C8C8C8" thickness="1"/>
+					</isee:series_styles>
+				</graph>
+				<table color="#000000" background="#E0E0E0" text_align="right" font_size="12pt" orientation="vertical" wrap_text="false" isee:auto_fit="true" isee:use_alternate_row_colors="false" isee:unlimited_table_length="false" blank_column_width="80" column_width="160" interval="1" report_balances="beginning" report_flows="instantaneous" header_font_style="normal" header_font_weight="normal" header_text_decoration="none" header_text_align="center" header_vertical_text_align="center" header_font_color="#000000" header_font_family="Arial" header_font_size="12pt" header_text_padding="2" header_text_border_color="#000000" header_text_border_width="thin" header_text_border_style="none"/>
+				<button color="#000000" background="#E0E0E0" font_size="12pt" border_width="thin" border_style="solid" transparent="false" corner_radius="0" isee:flat="false" icon_side="top" isee:highlight_on_hover="false" isee:highlight_color="#959595"/>
+				<isee:annotation color="#000000" background="#E0E0E0" font_size="12pt" border_width="thin" border_style="solid" transparent="false" corner_radius="0" isee:flat="false" icon_side="top" isee:highlight_on_hover="false" isee:highlight_color="#959595" popup_corner_radius="0" popup_background_color="#FFFECF"/>
+				<slider color="#000000" background="#E0E0E0" font_size="12pt" num_ticks="3" label_side="top" wrap_title="true" vertical="false" isee:fancy_appearance="false" isee:show_hover_tip="when_deciding" input_expands="true" input_width="100"/>
+				<isee:stacked_container color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt" padding="6 8" border_color="#999999" border_width="thin" border_style="solid" item_spacing="0" corner_radius="4" selected_item_color="#000000" selected_item_background="#FFFFFF" item_background="#DDDDDD" transparent_bg="false"/>
+				<isee:dual_slider color="#000000" background="#FFFFFF" font_size="12pt" num_ticks="3" label_side="top" wrap_title="true" isee:show_hover_tip="when_deciding" input_expands="true" input_width="100"/>
+				<isee:sim_speed_slider color="#000000" background="#FFFFFF"/>
+				<isee:time_slider color="#000000" background="#FFFFFF"/>
+				<isee:pie_input color="#000000" background="#FFFFFF" font_size="12pt" legend_position="bottom" isee:transparent="false"/>
+				<knob color="#66CC66" background="#E0E0E0" font_size="12pt" label_side="bottom" wrap_title="true"/>
+				<numeric_input color="#000000" background="#E0E0E0" font_size="12pt" label_side="left" wrap_title="true" input_expands="false" input_width="100"/>
+				<switch color="#000000" background="#E0E0E0" font_size="12pt" label_side="top" wrap_title="true" isee:appearance="switch" isee:on_color="#008000"/>
+				<options color="#000000" background="#FFFFFF" appearance="radio-buttons" arrangement="vertical"/>
+				<graphical_input color="#000000" background="#E0E0E0" font_size="12pt" isee:show_hover_tip="true"/>
+				<group_input color="#000000" background="#E0E0E0" font_size="12pt"/>
+				<lamp color="#000000" background="#FFFFFF" font_size="9pt"/>
+				<gauge color="#000000" background="#FFFFFF" font_size="9pt" needle_color="#F09F72" bar_color="#EEEEEE" bar_progress_color="#000000" appearance="radial" num_major_ticks="11" num_minor_ticks="11" show_numeric_value="true"/>
+				<isee:spatial_map color="#000000" background="#FFFFFF" font_size="12pt"/>
+				<isee:animation_object color="#000000" background="#FFFFFF" font_size="12pt"/>
+				<isee:navigation_widget color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt" padding="6 8" border_color="#999999" border_width="thin" border_style="solid" item_spacing="6" appearance="tabs" corner_radius="4" selected_item_color="#000000" selected_item_background="#FFFFFF" item_background="#DDDDDD" transparent_bg="false"/>
+				<isee:shape color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt" border_width="thin" border_style="solid" opacity="1" transparent_background="true" corner_radius="1"/>
+				<isee:selector color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt"/>
+				<isee:iframe color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt" border_width="thin" border_style="solid"/>
+				<isee:financial_table color="#000000" background="#FFFFFF" text_align="right" font_size="12pt" hide_border="false" auto_fit="true" first_column_width="250" other_column_width="100" header_font_style="normal" header_font_weight="bold" header_text_decoration="none" header_text_align="center" header_vertical_text_align="center" header_font_color="#000000" header_font_family="Arial" header_font_size="14pt" header_text_padding="2" header_text_border_color="#000000" header_text_border_width="thin" header_text_border_style="none"/>
+			</style>
+			<view isee:show_pages="false" background="#FFFFFF" page_width="756" page_height="584" isee:page_cols="2" zoom="140" isee:popup_graphs_are_comparative="true" isee:enable_non_negative_highlights="false" type="stock_flow">
+				<style color="#000000" background="#FFFFFF" font_style="normal" font_weight="normal" text_decoration="none" text_align="center" vertical_text_align="center" font_color="#000000" font_family="Arial" font_size="10pt" padding="2" border_color="#000000" border_width="thin" border_style="none">
+					<stock color="#0000FF" background="#FFFFFF" font_color="#0000FF" font_size="11pt" label_side="top">
+						<shape type="rectangle" width="45" height="35"/>
+					</stock>
+					<flow color="#0000FF" background="#FFFFFF" font_color="#0000FF" font_size="11pt" label_side="bottom">
+						<shape type="circle" radius="18"/>
+					</flow>
+					<isee:placeholder color="#228B22" background="#FFFFFF" font_color="#228B22" label_side="bottom"/>
+					<module color="#0000FF" background="#FFFFFF" font_color="#0000FF" font_size="11pt" label_side="top">
+						<shape type="rectangle" width="55" height="45"/>
+					</module>
+					<aux color="#0000FF" background="#FFFFFF" font_color="#0000FF" font_size="11pt" label_side="bottom">
+						<shape type="circle" radius="18"/>
+					</aux>
+					<group color="#FF0000" background="#FFFFFF" font_color="#FF0000" font_size="9pt"/>
+					<connector color="#FF007F" background="#FFFFFF" font_color="#FF007F" font_size="9pt" isee:thickness="1"/>
+					<text_box color="#000000" background="#FFFFFF" text_align="left" vertical_text_align="top" font_size="12pt"/>
+					<isee:loop_indicator color="#000000" background="#FFFFFF"/>
+					<numeric_display color="#0000FF" background="#FFFFFF" font_size="9pt" border_width="thin" border_style="solid" isee:transparent="false" isee:show_divider="true" isee:show_bounding_box="true" label_side="left"/>
+					<graph color="#000000" background="#FFFFFF" font_size="12pt" axis_color="#666666" grid_color="#C8C8C8" isee:graph_area_color="#FFFFFF" legend_position="bottom" isee:transparent="false" isee:hide_border="false" axis_title_font_style="normal" axis_title_font_weight="normal" axis_title_text_decoration="none" axis_title_text_align="center" axis_title_vertical_text_align="center" axis_title_font_color="#000000" axis_title_font_family="Arial" axis_title_font_size="12pt" axis_title_text_padding="2" axis_title_text_border_color="#000000" axis_title_text_border_width="thin" axis_title_text_border_style="none" axis_label_font_style="normal" axis_label_font_weight="normal" axis_label_text_decoration="none" axis_label_text_align="center" axis_label_vertical_text_align="center" axis_label_font_color="#000000" axis_label_font_family="Arial" axis_label_font_size="9pt" axis_label_text_padding="2" axis_label_text_border_color="#000000" axis_label_text_border_width="thin" axis_label_text_border_style="none">
+						<isee:series_styles>
+							<isee:series_style color="#0000FF" thickness="1"/>
+							<isee:series_style color="#FF0000" thickness="1" pen_style="dot_dashed"/>
+							<isee:series_style color="#FF00FF" thickness="1" pen_style="dotted"/>
+							<isee:series_style color="#008F44" thickness="1" pen_style="dashed"/>
+							<isee:series_style color="#FF7F00" thickness="1"/>
+							<isee:series_style color="#7F00FF" thickness="1" pen_style="dot_dashed"/>
+							<isee:series_style color="#0CA0FF" thickness="1" pen_style="dotted"/>
+							<isee:series_style color="#00FF00" thickness="1" pen_style="dashed"/>
+							<isee:series_style color="#FF007F" thickness="1"/>
+							<isee:series_style color="#00FFFF" thickness="1" pen_style="dot_dashed"/>
+							<isee:series_style color="#F586FF" thickness="1" pen_style="dotted"/>
+							<isee:series_style color="#000000" thickness="1" pen_style="dashed"/>
+							<isee:series_style color="#C8C8C8" thickness="1"/>
+						</isee:series_styles>
+					</graph>
+					<table color="#000000" background="#E0E0E0" text_align="right" font_size="12pt" orientation="vertical" wrap_text="false" isee:auto_fit="true" isee:use_alternate_row_colors="false" isee:unlimited_table_length="false" blank_column_width="80" column_width="160" interval="1" report_balances="beginning" report_flows="instantaneous" header_font_style="normal" header_font_weight="normal" header_text_decoration="none" header_text_align="center" header_vertical_text_align="center" header_font_color="#000000" header_font_family="Arial" header_font_size="12pt" header_text_padding="2" header_text_border_color="#000000" header_text_border_width="thin" header_text_border_style="none"/>
+				</style>
+				<stock label_side="bottom" x="259" y="182" name="prey"/>
+				<flow x="376.25" y="182" name="prey deaths">
+					<pts>
+						<pt x="281.5" y="182"/>
+						<pt x="495" y="182"/>
+					</pts>
+				</flow>
+				<flow x="171.25" y="179" name="prey births">
+					<pts>
+						<pt x="106" y="179"/>
+						<pt x="236.5" y="179"/>
+					</pts>
+				</flow>
+				<aux x="117" y="93" name="prey\nbirthrate"/>
+				<connector uid="1" angle="341.565">
+					<from>prey_birthrate</from>
+					<to>prey_births</to>
+				</connector>
+				<connector uid="2" angle="110.854">
+					<from>prey</from>
+					<to>prey_births</to>
+				</connector>
+				<stock label_side="bottom" x="259" y="302" name="predators"/>
+				<flow label_side="top" x="374.75" y="308" name="predator\ndeaths">
+					<pts>
+						<pt x="281.5" y="308"/>
+						<pt x="492" y="308"/>
+					</pts>
+				</flow>
+				<connector uid="3" angle="330.709">
+					<from>predators</from>
+					<to>predator_deaths</to>
+				</connector>
+				<aux x="456" y="387" name="predator mortality\nrate"/>
+				<connector uid="4" angle="175.601">
+					<from>predator_mortality_rate</from>
+					<to>predator_deaths</to>
+				</connector>
+				<flow x="174.25" y="305" name="predator\nbirths">
+					<pts>
+						<pt x="112" y="305"/>
+						<pt x="236.5" y="305"/>
+					</pts>
+				</flow>
+				<aux x="112" y="405" name="predator\nbirthrate"/>
+				<connector uid="5" angle="90">
+					<from>predator_birthrate</from>
+					<to>predator_births</to>
+				</connector>
+				<connector uid="6" angle="117.216">
+					<from>predators</from>
+					<to>predator_births</to>
+				</connector>
+				<connector uid="7" angle="12.5288">
+					<from>predators</from>
+					<to>prey_deaths</to>
+				</connector>
+				<connector uid="8" angle="208.443">
+					<from>prey</from>
+					<to>predator_births</to>
+				</connector>
+				<connector uid="9" angle="39.9204">
+					<from>prey</from>
+					<to>prey_deaths</to>
+				</connector>
+				<aux x="500" y="85" name="prey mortality\nrate"/>
+				<connector uid="10" angle="180">
+					<from>prey_mortality_rate</from>
+					<to>prey_deaths</to>
+				</connector>
+				<stacked_container uid="11" x="537.857" y="188" width="192.857" height="142.143">
+					<graph width="192.857" height="142.143" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="3" isee:fill_intensity="0.1" isee:allow_zero_axis="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
+						<plot color="#0000FF" isee:keep_zero_visible="true" pen_width="1" index="0" show_y_axis="true">
+							<entity name="predators"/>
+						</plot>
+						<plot color="#FF0000" pen_style="dot_dashed" isee:keep_zero_visible="true" pen_width="1" index="1" show_y_axis="true">
+							<entity name="prey"/>
+						</plot>
+					</graph>
+				</stacked_container>
+			</view>
+			<view isee:show_pages="false" background="white" page_width="800" page_height="600" home_view="true" type="interface">
+				<style/>
+			</view>
+			<isee:templates>
+				<view isee:show_pages="false" background="white" page_width="800" page_height="600" type="template">
+					<style/>
+				</view>
+			</isee:templates>
+			<isee:stories/>
+		</views>
+	</model>
+</xmile>
+
